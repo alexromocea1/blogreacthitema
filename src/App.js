@@ -26,7 +26,11 @@ export default class App extends Component{
       <Route exact path="/articles/:id" component={PostsDetails}/>
       <Route exact path="/articles/:id/modifier" component={PostUpdate}/>
 
-      <Route exact path="/utilisateurs" component={UserList}/>
+      <Route exact path="/utilisateurs" component={UserList}/>    
+
+
+
+      
       <Route exact path="/utilisateurs/ajouter" component={UserAdd}/>
       <Route exact path="/utilisateurs/:id" component={UserDetail}/>
       <Route exact path="/utilisateurs/:id/modifier" component={UserUpdate}/>
