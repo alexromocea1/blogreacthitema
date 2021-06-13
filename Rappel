@@ -1,0 +1,32 @@
+Inserer la function getStoredUserLevel de UserQuery de Query dans toute les pages demandant une authorisation
+
+
+Variable de $_Post : 
+password (password que l'utilisateur à rentré)
+login (login que l'utilisateur à rentré)
+
+Pour le payement, on donne le type(type) qui est "bar" ou "bn" et l'id (id)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+use App\Query\UserQuery;
+
+<?php if ($level == UserQuery::HOST_INDICATOR || $level == UserQuery::ADMIN_INDICATOR) { ?>
+<?php } else{ ?>
+    <p>Veuillez vous connecter avec un compte hôte </p>
+<?php } ?>

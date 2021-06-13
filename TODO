@@ -1,0 +1,8 @@
+Modifier l'affichage de login(mauvais mot de passe ou compte, déjà connecté)
+Faire la redirection de logout vers l'acceuil
+
+Finir Register
+
+Finir payment
+
+Modifier le index de payement pour que les select soit à jours sur la date plutot que des valeur bruts
